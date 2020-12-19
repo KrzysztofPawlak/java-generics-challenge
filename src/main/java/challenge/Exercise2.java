@@ -6,7 +6,7 @@ import java.util.List;
 
 class Exercise2 {
 
-    static void addAnimalOfTheMonth(List /* TODO : add type parameter */ animals) {
+    static  void addAnimalOfTheMonth(List<? super Animal> animals) {
         Zebra zebra = null;
         animals.add(zebra);
     }

@@ -8,10 +8,8 @@ import java.util.List;
 
 class Exercise3 {
 
-    static
-    List /* TODO : add type parameter */
-    sort(Collection /* TODO : add type parameter */ animals,
-         Comparator /* TODO : add type parameter */ comparator) {
+    static <T extends LivingBeing> List<T> sort(Collection<? extends Animal> animals,
+         Comparator<? super Cat> comparator) {
         return null;
     }
 }
